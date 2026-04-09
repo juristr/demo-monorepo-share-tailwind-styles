@@ -1,0 +1,17 @@
+{
+  "name": "@org/shared-styles",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/globals.css",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./src/globals.css",
+    "./globals.css": "./src/globals.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "*"
+  },
+  "nx": {
+    "tags": ["type:styles", "scope:shared"]
+  }
+}
