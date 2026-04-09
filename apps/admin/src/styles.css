@@ -2,5 +2,5 @@
 @import '@org/shared-styles';
 
 /* nx-tailwind-sources:start */
-@source "../../../libs/shared/styles";
+@source "../../../packages/shared/styles";
 /* nx-tailwind-sources:end */

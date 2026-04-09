@@ -5,7 +5,7 @@ Demo: share Tailwind `@theme` tokens across multiple apps via a shared styles pa
 ```
 apps/shop/           # React + Vite
 apps/admin/          # React + Vite
-libs/shared/styles/  # Shared @theme tokens (CSS-only, no build step)
+packages/shared/styles/  # Shared @theme tokens (CSS-only, no build step)
 ```
 
 Both apps `@import '@org/shared-styles'` and get consistent `bg-primary`, `text-ink`, `shadow-md`, etc.

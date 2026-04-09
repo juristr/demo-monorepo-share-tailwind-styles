@@ -191,15 +191,15 @@ importers:
     devDependencies:
       '@org/shared-styles':
         specifier: workspace:*
-        version: link:../../libs/shared/styles
+        version: link:../../packages/shared/styles
 
   apps/shop:
     devDependencies:
       '@org/shared-styles':
         specifier: workspace:*
-        version: link:../../libs/shared/styles
+        version: link:../../packages/shared/styles
 
-  libs/shared/styles:
+  packages/shared/styles:
     devDependencies:
       tailwindcss:
         specifier: '*'
